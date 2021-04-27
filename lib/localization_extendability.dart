@@ -5,7 +5,7 @@ import 'package:syncfusion_flutter_core/localizations.dart';
 /// The translations for Estonian (`et`).
 class SfLocalizationsFr extends SfLocalizations{
   SfLocalizationsFr();
-  
+
   @override
   String get noEventsCalendarLabel => 'noEventsCalendarLabel';
 
@@ -147,6 +147,10 @@ class SfLocalizationsFr extends SfLocalizations{
   @override
   String get todayLabel => 'todayLabel';
 
+  @override
+  // TODO: implement daySpanCountLabel
+  String get daySpanCountLabel => '';
+
 }
 
 class SfLocalizationsFrDelegate extends LocalizationsDelegate<SfLocalizations> {
@@ -163,6 +167,3 @@ class SfLocalizationsFrDelegate extends LocalizationsDelegate<SfLocalizations> {
   @override
   bool shouldReload(LocalizationsDelegate<SfLocalizations> old) => true;
 }
-
-
-
