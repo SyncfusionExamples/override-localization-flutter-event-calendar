@@ -149,7 +149,7 @@ class SfLocalizationsFr extends SfLocalizations{
 
   @override
   // TODO: implement daySpanCountLabel
-  String get daySpanCountLabel => throw UnimplementedError();
+  String get daySpanCountLabel => '';
 
 }
 
