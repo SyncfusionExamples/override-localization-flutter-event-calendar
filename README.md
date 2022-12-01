@@ -1,16 +1,19 @@
-# override_localization
+# How to override the localization in the Flutter Calendar
 
-A new Flutter project.
+A quick-start example to override the localization in the Flutter Calendar
 
-## Getting Started
+By default, the calendar widget supports US English localizations. You can override the localization in the Flutter Event Calendar by using the extendibility options. To override localization, place the localization extendibility.dart file in the lib folder. Then, in the localization extendibility.dart file, override the required keys and add the delegate class for localization. Then, to override the localized words, invoke the delegate class.
 
-This project is a starting point for a Flutter application.
+You can also refer our UG documentation to know more about [Localization](https://help.syncfusion.com/flutter/calendar/localization)
 
-A few resources to get you started if this is your first Flutter project:
+## Requirements to run the demo
+* [VS Code](https://code.visualstudio.com/download)
+* [Flutter SDK v1.22+](https://flutter.dev/docs/development/tools/sdk/overview)
+* [For more development tools](https://flutter.dev/docs/development/tools/devtools/overview)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## How to run this application
+To run this application, you need to first clone or download the ‘create a flutter maps widget in 10 minutes’ repository and open it in your preferred IDE. Then, build and run your project to view the output.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Further help
+For more help, check the [Syncfusion Flutter documentation](https://help.syncfusion.com/flutter/introduction/overview),
+ [Flutter documentation](https://flutter.dev/docs/get-started/install).
